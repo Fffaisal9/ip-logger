@@ -35,9 +35,3 @@ Region: {info.get("regionName", "N/A")}
 City: {info.get("city", "N/A")}
 ISP: {info.get("isp", "N/A")}
 Time: {now}
-"""
-    send_to_telegram(message)
-    return "<h1 style='color:red; text-align:center;'>Welcome to My Logger</h1>"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)
